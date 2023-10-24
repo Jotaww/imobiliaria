@@ -1,0 +1,428 @@
+* {
+  font-family: Poppins,Arial,Helvetica,sans-serif;;
+}
+
+#navBar {
+  background-color: #ebf6ff;
+}
+
+
+.navBarLi {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navBarLi li a {
+  align-items: center;
+  color: #5e6a82;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 100%;
+  line-height: 1.5rem;
+  margin: 0 1rem;
+  position: relative;
+  text-decoration: none;
+}
+
+#loginBtn {
+  background: transparent;
+  color: #0092ff;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 100%;
+  line-height: 1.5rem;
+  margin: 0 1rem;
+  position: relative;
+  text-decoration: none;
+  border: 1px solid #0092ff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#loginBtn i {
+  margin-right: 5px;
+}
+
+#logo {
+  align-items: center;
+  color: #191c24;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 100%;
+  line-height: 1.5rem;
+  margin: 0 1rem;
+  position: relative;
+  text-decoration: none;
+}
+
+/* ////////////////////////////////////// Search ////////////////////////////////////////// */
+
+.homeSearch {
+  background: rgb(235,246,255);
+  background: linear-gradient(180deg, rgba(235,246,255,1) 75%, rgba(255,255,255,1) 100%);
+  padding: 20px;
+  display: flex;
+}
+
+.imgSearch {
+  width: 90%;
+  height: 350px;
+  position: absolute;
+  z-index: 1;
+}
+
+.imgSearch img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.homeSearch h1 {
+  color: #005899;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.searchContent {
+  margin: 30px;
+  width: 100%;
+  z-index: 3;
+}
+
+.searchForm {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#tipoImovel {
+  width: 20%;
+}
+
+#tipoImovel select {
+  padding: 20px;
+}
+
+#tipoImovel select {
+  padding: 20px;
+}
+
+#locationInput {
+  width: 40%;
+}
+
+#locationInput input {
+  padding: 20px;
+}
+
+#btnSearch {
+  background-color: #0092ff;
+  color: white;
+  padding: 17px 30px;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+/* ///////////////////////////////////////////// Conteudo ///////////////////////////////// */
+
+.imoveisContent {
+  margin-bottom: 100px;
+}
+
+.imoveisHighlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imoveisHighlights h4 {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #1a1d23;
+  margin: 0;
+}
+
+#divider {
+  background-color: #0092ff;
+  margin-top: 1.5rem;
+  height: .25rem;
+  width: 4rem;
+  border-radius: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.titleImoveis {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imoveis {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.imovel {
+  border: 1px solid #cdd2db;
+  border-radius: 10px;
+  width: 24%;
+  text-decoration: none;
+}
+
+.imovel:hover {
+  transform: scale(1.01);
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.164);
+}
+
+.imovel img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.imovelDesc {
+  padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #5e6a82;
+
+}
+
+.imovelDesc p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #3c4453;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.imovelDesc span {
+  font-weight: 400;
+  font-size: 0.98rem;
+  line-height: 1.5rem;
+}
+
+.imovelDesc div {
+  margin-top: 1rem;
+}
+
+.imovelDesc div span {
+  font-size: .825rem;
+  line-height: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+.imovelDesc div svg {
+  width:  1.3rem;
+  height:  1.3rem;
+  font-weight: 400;
+  margin-right: 0.2rem;
+}
+
+.imovelDesc h5 {
+  color: #0075cc;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+
+/* /////////////////////////////////////////// footer /////////////////////////////// */
+
+.footer {
+  background-color: #ebf6ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footerSocialMedia {
+  display: flex;
+}
+
+.footerSocialMedia a {
+  margin: 0 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #3d3d3d;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: #3d3d3d;
+  font-size: 1.3rem;
+}
+
+.footerPolicies a {
+  color: #3d3d3d;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+
+.footerLocation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end
+}
+
+.footerLocation i {
+  font-size: 4rem;
+}
+
+.footerLocation div span {
+  color: #3d3d3d;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+
+
+/* ////// Login ///// */
+
+#noAccount {
+  font-size: 16px;
+  color: rgba(0,0,0,.54);
+  text-align: center;
+}
+
+#noAccount a {
+  color: #0075cc;
+}
+
+#googleBtnLogin {
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  width: 70%;
+  text-align: center;
+}
+
+#googleBtnLogin i {
+  margin-right: 5px;
+}
+
+#ouLogin {
+  text-align: center;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+
+/* //////////////////////////////////// Media Querry ////////////////////////////////// */
+
+@media (max-width: 1300px) {
+
+  .imovelDesc div span {
+    font-size: .775rem;
+  }
+  .imovelDesc div svg {
+    width:  1.2rem;
+    height:  1.2rem;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  .imovel img {
+    height: 180px;
+  }
+  .imovel {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  #tipoImovel {
+    width: 24%;
+  }
+}
+
+@media (max-width: 768px) {
+  .imovelDesc div span {
+    font-size: .725rem;
+    line-height: 1.5rem;
+    margin-right: 0.7rem;
+  }
+  
+  .imovelDesc div svg {
+    width:  1.2rem;
+    height:  1.2rem;
+    font-weight: 400;
+    margin-right: 0.15rem;
+  }
+  #btnSearch {
+    padding: 17px 20px;
+    font-size: 1.15rem;
+  }
+  #tipoImovel {
+    width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .imovel {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .searchContent div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #tipoImovel {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #locationInput {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerSocialMedia {
+    justify-content: center;
+  }
+  .footerPolicies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footerLocation {
+    align-items: center;
+  }
+  .footerPolicies a {
+    width: 100%;
+    text-align: center;
+  }
+}

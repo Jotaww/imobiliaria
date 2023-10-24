@@ -1,0 +1,290 @@
+.imgsImovel {
+  display: flex;
+}
+
+.imgsImovel img {
+  width: 37%;
+  height: 400px;
+  border-right: 2px solid white;
+}
+
+.imgsImovel div {
+  width: 21%;
+  height: 400px;
+}
+
+.imgsImovel div img {
+  width: 100%;
+  height: 200px;
+}
+
+#imgImovelFirst {
+  border-bottom: 2px solid white;
+}
+
+
+/* ///////////////////////////////////////// info imovel //////////////////////////////////////// */
+
+.container {
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.infoImoveis {
+  width: 75%;
+}
+
+.infoImoveis h2 {
+  margin-top: 40px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-right: 12px;
+  color: #212121;
+}
+
+.infoImoveis p {
+  color: #757575;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.infoImoveis div {
+  display: flex;
+  align-items: center;
+}
+
+.infoImoveis div div {
+  width: 25%;
+  color: #757575;
+}
+
+.infoImoveis div div svg {
+  width:  1.8rem;
+  height:  1.8rem;
+  font-weight: 400;
+  margin-right: 1rem;
+}
+
+.infoImoveis div div span {
+  color: #757575;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.imovelDescription {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#imovelDescription {
+  align-items: flex-start;
+}
+
+.imovelDescription h5 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #212121;
+  margin: 0;
+}
+
+.price {
+  width: 25%;
+  padding: 20px;
+  border: 1px solid #757575;
+  border-radius: 0px 0px 10px 10px;
+  border-top: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price h5 {
+  color: #757575;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.price span {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  font: Open Sans,Helvetica,Sans-Serif;
+}
+
+.dividerPrice {
+  background: #0b7eb6;
+  border-radius: 4px;
+  content: "";
+  height: 4px;
+  width: 24px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.infoADD div {
+  display: flex;
+  justify-content: space-between
+}
+
+.infoADD div p {
+  color: #757575;
+  display: flex;
+  font-size: 13px;
+  font-weight: 400;
+  justify-content: space-between;
+  line-height: 21px;
+}
+
+.buyBtn {
+  height: 33%;
+  align-items: end;
+  display: flex;
+}
+
+.infoPrice {
+  height: 20%;
+}
+
+#infoBtn {
+  background: #0b7eb6;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 16px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#marginInfoSVG {
+  margin-top: 50px;
+}
+
+.carousel-item img {
+  height: 300px;
+  width: 100%;
+}
+
+#carouselExample {
+  display: none;
+}
+
+#span-required {
+  font-size: 0.9rem;
+  color: rgb(145, 10, 10);
+  display: none;
+}
+
+.msg {
+  background-color: #D4EDDA;
+  color: #155724;
+  border: 1px solid #C3E6CB;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .price {
+    width: 35%;
+  }
+  .infoImoveis h2 {
+    font-size: 25px;
+  }
+  .infoImoveis div div span {
+    font-size: 0.8rem;
+  }
+  .infoImoveis div div svg {
+    width:  1.4rem;
+    height:  1.4rem;
+  }
+  #marginInfoSVG {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .price {
+    width: 45%;
+  }
+  .infoImoveis h2 {
+    font-size: 25px;
+  }
+  .infoImoveis div div span {
+    font-size: 0.8rem;
+  }
+  .infoImoveis div div svg {
+    width:  1.4rem;
+    height:  1.4rem;
+  }
+  .infoImoveis p {
+    margin: 0;
+  }
+  #marginInfoSVG {
+    margin-top: 30px;
+  }
+  .infoImoveis div div svg {
+    width:  1.3rem;
+    height:  1.3rem;
+    margin-right: 0.5rem;
+  }
+  .infoImoveis div div span {
+    font-size: 0.7rem;
+  }
+  .imgsImovel {
+    display: none;
+  }
+  #carouselExample {
+    display: block;
+  }
+  .carousel-item img {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .price {
+    width: 100%;
+  }
+  .infoImoveis {
+    width: 100%;
+  }
+  .infoImoveis h2 {
+    font-size: 25px;
+  }
+  .infoImoveis div div span {
+    font-size: 0.8rem;
+  }
+  .infoImoveis div div svg {
+    width:  1.4rem;
+    height:  1.4rem;
+  }
+  
+  .imgsImovel {
+    display: none;
+  }
+  #carouselExample {
+    display: block;
+  }
+  .carousel-item img {
+    height: 300px;
+    width: 100%;
+  }
+}

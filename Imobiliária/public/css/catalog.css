@@ -1,0 +1,198 @@
+.searchCatalog {
+  background: rgb(235,246,255);
+  background: linear-gradient(180deg, rgba(235,246,255,1) 75%, rgba(255,255,255,1) 100%);
+  padding-top: 20px;
+}
+
+.searchCatalog h1 {
+  color: #005899;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.formCatalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seacrch {
+  width: 40%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.seacrch input {
+  padding: 20px;
+}
+
+.select {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.select select {
+  padding: 20px;
+  border-radius: 0;
+  width: 16.6%;
+}
+
+.btnSearchCatalog {
+  background-color: #0092ff;
+  color: white;
+  padding: 17px 30px;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.results {
+  margin-bottom: 8px;
+  display: flex;
+  width: 70%;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.results a {
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+#firstSelect {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#lastSelect {
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.properties {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+  min-height: 30%;
+}
+
+.property {
+  border: 1px solid #cdd2db;
+  border-radius: 10px;
+  width: 24%;
+  text-decoration: none;
+  margin-bottom: 1%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+.property:hover {
+  transform: scale(1.01);
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.164);
+}
+
+.property img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.propertyDesc {
+  padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #5e6a82;
+
+}
+
+.propertyDesc p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #3c4453;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.propertyDesc span {
+  font-weight: 400;
+  font-size: 0.98rem;
+  line-height: 1.5rem;
+}
+
+.propertyDesc div {
+  margin-top: 1rem;
+}
+
+.propertyDesc div span {
+  font-size: .825rem;
+  line-height: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+.propertyDesc div svg {
+  width:  1.3rem;
+  height:  1.3rem;
+  font-weight: 400;
+  margin-right: 0.2rem;
+}
+
+.propertyDesc h5 {
+  color: #0075cc;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (max-width: 1200px) {
+
+  .property {
+    width: 32%;
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  .property {
+    width: 49%;
+  }
+  .select select {
+    width: 33%;
+  }
+  #firstSelect {
+    border-radius: 10px 0px 0px 0px;
+  }
+  
+  #lastSelect {
+    border-radius: 0px 0px 10px 0px;
+  }
+  .seacrch {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .properties {
+    justify-content: center;
+}
+  .property {
+    width: 70%;
+  }
+
+}

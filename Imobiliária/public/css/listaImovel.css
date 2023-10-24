@@ -1,0 +1,136 @@
+.container {
+  margin-top: 60px;
+  padding-bottom: 150px;
+  min-height: 100%;
+}
+
+.registerAndSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registerAndSearch form  {
+  width: 30%;
+}
+
+.registerAndSearch form input {
+  padding: 10px;
+  width: 100%;
+}
+
+#photoImovelList {
+  width: 200px;
+  height: 100px;
+}
+
+#table {
+  vertical-align: middle;
+}
+
+#btnList {
+  text-align: center;
+}
+
+form {
+  margin: 0;
+}
+
+.content {
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.painel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.countCeo {
+  border: 1px solid gray;
+  width: 32%;
+  height: 300px;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.178);
+}
+
+.countCeo h1 {
+  font-size: 1.3rem;
+}
+
+.countCeo i {
+  font-size: 4rem;
+}
+
+.countCeo span {
+  font-size: 2rem;
+}
+
+#person {
+  color: rgb(199, 166, 126);
+}
+
+#house {
+  color: rgb(20, 64, 85);
+}
+
+#houseCheck {
+  color: rgb(86, 172, 36);
+}
+
+#money {
+  color: rgb(24, 104, 22);
+}
+
+#personPending {
+  color: rgb(94, 61, 23);
+}
+
+#houseSell {
+  color: rgb(27, 168, 25);
+}
+
+.msg {
+  background-color: #D4EDDA;
+  color: #155724;
+  border: 1px solid #C3E6CB;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 992px) {
+  .countCeo {
+    width: 32%;
+  }
+}
+
+@media (max-width: 768px) {
+  .countCeo {
+    width: 49%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .countCeo {
+    width: 80%;
+  }
+}
