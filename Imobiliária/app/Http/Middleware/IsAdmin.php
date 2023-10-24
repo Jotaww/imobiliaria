@@ -24,9 +24,6 @@ class IsAdmin
         if (Auth::user() &&  Auth::user()->permission == 4 ) {
             return $next($request);
         }
-        if (Auth::user() &&  Auth::user()->permission == 4 ) {
-        return $next($request);
-        }
 
         return redirect('/');
     }
