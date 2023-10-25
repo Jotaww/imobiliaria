@@ -119,7 +119,7 @@
     </div>
     <div class="buyBtn">
       <!-- Button trigger modal -->
-      <button type="button" id="infoBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Quero mais informação</button>
+      <button type="button" id="infoBtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Quero mais informações</button>
 
       <!-- Modal -->
       <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
